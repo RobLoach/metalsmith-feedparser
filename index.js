@@ -57,7 +57,7 @@ module.exports = function (opts) {
             // Construct the new RSS feed item file.
             var newFile = clone(files[filename]);
             // Find the contents.
-            newFile.contents = new Buffer(item.description || item.summary);
+            newFile.contents = new Buffer(item.description || item.summary || '');
             // Inject additional properties from the original file.
             extend(newFile, item);
 

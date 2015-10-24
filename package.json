@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-feedparser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Metalsmith FeedParser Plugin",
   "files": [
     "index.js"
